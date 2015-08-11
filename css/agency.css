@@ -1017,7 +1017,8 @@ blockquote p {
   background-size: cover;
   height: 240px;
   width: 240px;
-
+  float: none;
+  clear: left;
 }
 
 
