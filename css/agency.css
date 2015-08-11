@@ -899,3 +899,126 @@ blockquote:before {
 blockquote p {
   display: inline;
 }
+
+.topic-margin {
+  margin-bottom: 80px !important;
+}
+
+.img-circle {
+  border-radius: 100%;
+}
+
+.team-member div {
+  margin: 0 auto;
+  border: 7px solid #fff;
+}
+.iyin {
+  background: url(../img/team/aboyeji.jpg) no-repeat center center;
+  background-size: cover;
+  height: 240px;
+  width: 240px;
+  /*border-radius: 120px;*/
+}
+
+.kent {
+  background: url(../img/team/kent.jpg) no-repeat center center;
+  background-size: cover;
+  height: 240px;
+  width: 240px;
+  /*border-radius: 120px;*/
+}
+
+.seye {
+  background: url(../img/team/kent.jpg) no-repeat center center;
+  background-size: cover;
+  height: 240px;
+  width: 240px;
+}
+
+.ola {
+  background: url(../img/team/ola.jpg) no-repeat center center;
+  background-size: cover;
+  height: 240px;
+  width: 240px;
+}
+
+.fisayo {
+  background: url(../img/team/fisayo.png) no-repeat top center;
+  background-size: cover;
+  height: 240px;
+  width: 240px;
+}
+
+.boye {
+  background: url(../img/team/fisayo.png) no-repeat top center;
+  background-size: cover;
+  height: 240px;
+  width: 240px;
+}
+
+.nduka {
+  background: url(../img/team/fisayo.png) no-repeat top center;
+  background-size: cover;
+  height: 240px;
+  width: 240px;
+}
+
+.aruosa {
+  background: url(../img/team/aruosa.jpg) no-repeat center center;
+  background-size: cover;
+  height: 240px;
+  width: 240px;
+}
+
+.bisi {
+  background: url(../img/team/olawuyi.jpg) no-repeat center center;
+  background-size: cover;
+  height: 240px;
+  width: 240px;
+}
+
+.lola {
+  background: url(../img/team/olawuyi.jpg) no-repeat center center;
+  background-size: cover;
+  height: 240px;
+  width: 240px;
+}
+
+.yetunde {
+  background: url(../img/team/yetunde-babaeko.jpg) no-repeat center center;
+  background-size: cover;
+  height: 240px;
+  width: 240px;
+}
+
+.niyi {
+  background: url(../img/team/niyi-adesanya.jpeg) no-repeat bottom center;
+  background-size: cover;
+  height: 240px;
+  width: 240px;
+}
+
+.rugged {
+  background: url(../img/team/Ruggedman.jpg) no-repeat bottom center;
+  background-size: cover;
+  height: 240px;
+  width: 240px;
+}
+
+.duke {
+  background: url(../img/team/duke.jpg) no-repeat center center;
+  background-size: cover;
+  height: 240px;
+  width: 240px;
+}
+
+.omowunmi {
+  background: url(../img/team/omowunmi.jpg) no-repeat center center;
+  background-size: cover;
+  height: 240px;
+  width: 240px;
+
+}
+
+
+
