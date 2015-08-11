@@ -912,6 +912,40 @@ blockquote p {
   margin: 0 auto;
   border: 7px solid #fff;
 }
+
+.marek {
+  background: url(../img/team/marek.png) no-repeat center center;
+  background-size: cover;
+  height: 240px;
+  width: 240px;
+  /*border-radius: 120px;*/
+}
+
+.amaka {
+  background: url(../img/team/amaka.jpeg) no-repeat center center;
+  background-size: cover;
+  height: 240px;
+  width: 240px;
+  /*border-radius: 120px;*/
+}
+
+.oo {
+  background: url(../img/team/oo.jpg) no-repeat center center;
+  background-size: cover;
+  height: 240px;
+  width: 240px;
+  /*border-radius: 120px;*/
+}
+
+
+.yomi {
+  background: url(../img/team/yomi.jpg) no-repeat center center;
+  background-size: cover;
+  height: 240px;
+  width: 240px;
+  /*border-radius: 120px;*/
+}
+
 .iyin {
   background: url(../img/team/aboyeji.jpg) no-repeat center center;
   background-size: cover;
@@ -927,6 +961,15 @@ blockquote p {
   width: 240px;
   /*border-radius: 120px;*/
 }
+
+.osas {
+  background: url(../img/team/esosa.jpg) no-repeat center center;
+  background-size: cover;
+  height: 240px;
+  width: 240px;
+  /*border-radius: 120px;*/
+}
+
 
 .seye {
   background: url(../img/team/seye.jpg) no-repeat center center;
