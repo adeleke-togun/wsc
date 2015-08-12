@@ -1079,5 +1079,11 @@ p.text-muted.speaker-title {
   height: 62px;
 }
 
+.quick-info {
+  font-size: 20px !important;
+}
 
+.event-year {
+  margin-bottom: 40px !important;
+}
 
