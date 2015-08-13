@@ -60,7 +60,7 @@ $('#ss-form').on('submit', function(e){
   } else {
     $.post(url, data);
     btn.removeAttr('disabled');
-    swal("Awesome!", "Thank you for registering!", "success")
+    swal("Awesome!", "Thank you for registering!", "success");
     $('#entry_1035444962').val('');
     req.each(function(i, e){
       $(e).val('');
