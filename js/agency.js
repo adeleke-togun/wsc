@@ -36,11 +36,34 @@ $('#ss-form').on('submit', function(e){
   e.preventDefault();
   var url = 'https://docs.google.com/forms/d/1Pc2pNL0XIl1lPG_oi3Nm7UbYwxs9IGirBkr7rlBKzPE/formResponse';
   var data = $(this).serialize();
-  if( parseInt($("#entry_1682894312").val()) == 0) {
+  var req = $('.req');
+  var btn = $(this).find(':submit');
+  btn.attr('disabled','disabled');
+
+  /* Check for empty inputs */
+  req.each(function(i, elem){
+    if($.trim($(elem).val().length) < 1) {
+      swal({
+        title: 'Oops',
+        text: 'please enter ' + $(this).attr('placeholder'),
+        type: 'warning'
+      });
+      // alert('please enter ' + $(this).attr('placeholder'));
+      btn.removeAttr('disabled');
+      exit();
+    }
+  });
+
+  if(parseInt($("#entry_1682894312").val()) === 0) {
     alert('Please select what you are registering for');
+    btn.removeAttr('disabled');
   } else {
-    $.post(url, data, function(response) {
-    console.log(respnse);
+    $.post(url, data);
+    btn.removeAttr('disabled');
+    swal("Awesome!", "Thank you for registering!", "success")
+    $('#entry_1035444962').val('');
+    req.each(function(i, e){
+      $(e).val('');
     });
   }
 });

@@ -25,6 +25,8 @@
     <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
 
+    <link rel="stylesheet" type="text/css" href="/bower_components/sweetalert/dist/sweetalert.css">
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -594,15 +596,15 @@
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <input type="text" class="form-control" name="entry.1054600659"  placeholder="Your Name *" id="entry_1054600659" required data-validation-required-message="Please enter your name.">
+                                    <input type="text" class="form-control req" name="entry.1054600659"  placeholder="Your Name *" id="entry_1054600659" required data-validation-required-message="Please enter your name.">
                                     <p class="help-block text-danger"></p>
                                 </div>
                                 <div class="form-group">
-                                    <input name="entry.338411279" id="entry_338411279" type="email" class="form-control" placeholder="Your Email *" required data-validation-required-message="Please enter your email address.">
+                                    <input name="entry.338411279" id="entry_338411279" type="email" class="form-control req" placeholder="Your Email *" required data-validation-required-message="Please enter your email address.">
                                     <p class="help-block text-danger"></p>
                                 </div>
                                 <div class="form-group">
-                                    <input name="entry.1865495675" type="tel" class="form-control" placeholder="Your Phone *" id="entry_1865495675" required data-validation-required-message="Please enter your phone number.">
+                                    <input name="entry.1865495675" type="tel" class="form-control req" placeholder="Your Phone *" id="entry_1865495675" required data-validation-required-message="Please enter your phone number.">
                                     <p class="help-block text-danger"></p>
                                 </div>
                             </div>
@@ -622,7 +624,7 @@
                             <div class="clearfix"></div>
                             <div class="col-lg-12 text-center">
                                 <div id="success"></div>
-                                <button type="submit" class="btn btn-xl">Register</button>
+                                <button name="submit" value="submit" type="submit" class="btn btn-xl">Register</button>
                             </div>
                         </div>
                     </form>
@@ -1003,6 +1005,9 @@
 
     <!-- Custom Theme JavaScript -->
     <script src="js/agency.js"></script>
+
+    <!-- Sweet Alert -->
+    <script type="text/javascript" src="bower_components/sweetalert/dist/sweetalert.min.js"></script>
 
 </body>
 
