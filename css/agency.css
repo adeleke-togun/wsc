@@ -953,6 +953,14 @@ blockquote p {
   /*border-radius: 120px;*/
 }
 
+.Dania {
+  background: url(../img/team/dania.jpg) no-repeat center center;
+  background-size: cover;
+  height: 240px;
+  width: 240px;
+  /*border-radius: 120px;*/
+}
+
 .iyin {
   background: url(../img/team/aboyeji.jpg) no-repeat center center;
   background-size: cover;
